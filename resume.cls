@@ -5,7 +5,7 @@
 % Keep Quiet
 \PassOptionsToPackage{quiet}{xeCJK}
 \ProcessOptions\relax
-\LoadClass[zihao=5,autoindent=0.5em]{ctexart}
+\LoadClass[zihao=5,autoindent=0em]{ctexart}
 
 % Define paper size.
 \RequirePackage{geometry}
@@ -112,7 +112,7 @@
     \zihao{-2} \heiti \g__resume_title_name_tl
   \end{center}
   % Reduce the space.
-  \vspace{-1.4em}
+  \vspace{-1em}
   \begin{center}
     \seq_use:Nnnn \g__resume_contacts_seq {~|~} {~|~} {~|~}
   \end{center}
